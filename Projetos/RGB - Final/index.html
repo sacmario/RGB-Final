@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleta de cores RGB</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Paleta de cores RGB</h1>
+    </header>
+
+    <section id="sec">
+        <div>
+            <p>(R) Vermelho</p>
+            <p>(G) Verde</p>
+            <p>(B) Azul</p>
+        </div>
+
+        <div id="botoes">
+            <p>
+                <input type="range" name="red" id="r" min="0" max="255">
+                <input type="number" name="txtred" id="txtred" placeholder="128" disabled="">
+            </p>
+            <p>
+                <input type="range" name="green" id="g" min="0" max="255">
+                <input type="number" name="txtgreen" id="txtgreen" placeholder="128" disabled="">
+            </p>
+            <p>
+                <input type="range" name="blue" id="b" min="0" max="255">
+                <input type="number" name="txtblue" id="txtblue" placeholder="128" disabled="">
+            </p>
+        </div>
+
+        <div id="RGB"></div>
+    </section>
+
+    <footer>
+        <p>&copy; Mario Carlos</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
